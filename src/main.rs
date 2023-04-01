@@ -17,7 +17,12 @@ async fn main() -> Result<(), reqwest::Error> {
     let args = Args::parse();
     let url = "https://www.affirmations.dev/";
     for _ in 0..args.count {
-        let affirm: Affirm = reqwest::Client::new().get(url).send().await?.json().await?;
+        let affirm: Affirm = reqwest::Client::new()
+            .get(url)
+            .send()
+            .await?
+            .json()
+            .await?;
         println!("{:#?}", affirm.affirmation);
     }
     Ok(())
