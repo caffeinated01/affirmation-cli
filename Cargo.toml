@@ -1,6 +1,6 @@
 [package]
 name = "affirmation-cli"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A small cli about affirmations"
 license = "MIT"
