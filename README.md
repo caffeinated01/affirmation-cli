@@ -2,7 +2,9 @@
 small cli made with rust (learning it rn)
 
 ## Installation
-```cargo install affirmation-cli```
+```
+cargo install affirmation-cli
+```
 
 ## Usage
 ```
