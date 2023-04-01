@@ -8,7 +8,7 @@ cargo install affirmation-cli
 
 ## Usage
 ```
-Usage: cli.exe [OPTIONS]
+Usage: affirmation-cli [OPTIONS]
 
 Options:
   -c, --count <COUNT>  [default: 1]
